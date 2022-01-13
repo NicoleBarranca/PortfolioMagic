@@ -88,3 +88,28 @@ footer ul li a {
   font-weight: normal;
   font-size: 1.55vw;
 }
+
+.intro {
+  line-height: 1.4;
+  color:var(--secondary-color);
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-me-content {
+  display: flex;
+  text-align: right;
+  margin: 30px 40px 30px 20px;
+}
+
+.about-me-title {
+  display: flex;
+  text-align: right;
+  margin: 30px 0 30px 400px;
+}
