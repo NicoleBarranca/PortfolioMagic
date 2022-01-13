@@ -2,6 +2,7 @@
 :root {
   --primary-color: whitesmoke;
   --secondary-color: #3db5ab;
+  --tertiary-color:#f4dcdc;
 }
 
 * { 
@@ -19,8 +20,8 @@ body {
 header {
   padding: 20px 35px;
   justify-content: space-between;
-  top: 0;
-  background-image: url("assets/images/eberhard-grossgasteiger-S-2Ukb_VqpA-unsplash.jpg");
+  top: 0 300px;
+  background:var(--tertiary-color);
   display: flex;
   align-items: center;
   background-size: cover;
@@ -30,12 +31,12 @@ header {
 header h1 {
   font-weight: bold;
   font-size: 36px;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 header a {
   text-decoration: none;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 header nav {
@@ -89,6 +90,21 @@ footer ul li a {
   font-size: 1.55vw;
 }
 
+.hero {
+  background-image: url(assets/images/eberhard-grossgasteiger-S-2Ukb_VqpA-unsplash.jpg);
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  justify-content: right;
+  padding: 80px 40px 40px 0;
+}
+
+.hero h2 {
+  color: var(--primary-color);
+  font-weight: normal;
+  font-size: 36px;
+}
+
 .intro {
   line-height: 1.4;
   color:var(--secondary-color);
@@ -99,7 +115,8 @@ footer ul li a {
 
 .flex-row {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .about-me-content {
@@ -108,8 +125,35 @@ footer ul li a {
   margin: 30px 40px 30px 20px;
 }
 
-.about-me-title {
+.section-title {
   display: flex;
   text-align: right;
   margin: 30px 0 30px 400px;
+}
+
+.section-title-other {
+  display: flex;
+  text-align: right;
+  margin: 0 0 0 400px;
+}
+
+.work-1 {
+  display: flex;
+  justify-content: end;
+  align-items: flex-start;
+}
+
+.run-buddy-image {
+  width: 70%;
+  display: flex;
+  border-radius: 15px;
+}
+
+.other-image {
+  width: 30%;
+  display: flex;
+  border-radius: 15px;
+} 
+
+#rbi {
 }
