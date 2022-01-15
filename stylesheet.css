@@ -21,7 +21,7 @@ header {
   padding: 20px 35px;
   justify-content: space-between;
   top: 0 300px;
-  background:var(--tertiary-color);
+  background:var(--primary-color);
   display: flex;
   align-items: center;
   background-size: cover;
@@ -115,26 +115,35 @@ footer ul li a {
 
 .flex-row {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
 }
 
 .about-me-content {
   display: flex;
   text-align: right;
-  margin: 30px 40px 30px 20px;
+  margin: 30px 40px 30px 30px;
 }
 
 .section-title {
   display: flex;
   text-align: right;
   margin: 30px 0 30px 400px;
+  border-right-style: solid var(--secondary-color);
+}
+
+.section-title-work {
+  line-height: 1.4;
+  display: flex;
+  text-align: center; 
+  font-size: 20px;
+  margin-right: 30px;
+  border-right-style: solid var(--secondary-color);
 }
 
 .section-title-other {
   display: flex;
   text-align: right;
   margin: 0 0 0 400px;
+
 }
 
 .work-1 {
@@ -144,8 +153,6 @@ footer ul li a {
 }
 
 .run-buddy-image {
-  width: 70%;
-  display: flex;
   border-radius: 15px;
 }
 
@@ -155,5 +162,28 @@ footer ul li a {
   border-radius: 15px;
 } 
 
-#rbi {
+#parent {
+  display: flex;
+}
+
+#title {
+  margin-left: 410px;
+}
+
+#bigimage {
+  width:700px;
+  margin-left: 50px;
+}
+
+.tools-used {
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+  margin-left: 550px;
+  margin-right: 600px;
+}
+
+.text-box {
+  margin-top: -50px;
 }
