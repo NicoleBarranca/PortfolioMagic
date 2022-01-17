@@ -2,7 +2,7 @@
 :root {
   --primary-color: whitesmoke;
   --secondary-color: #3db5ab;
-  
+
 }
 
 * { 
@@ -259,5 +259,4 @@ footer ul li a {
 
   .work-2 {
     margin-left: 420px;
-  }
-
+  } 
