@@ -2,7 +2,7 @@
 :root {
   --primary-color: whitesmoke;
   --secondary-color: #3db5ab;
-  --tertiary-color:#f4dcdc;
+  
 }
 
 * { 
@@ -17,14 +17,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.avatar {
-  max-width: 50%;
-  height: 100px;
-  margin-left: 50px;
-  margin-top: 30px;
-  opacity: 0.8;
-}
-
+/* NAVIGATION */
 header {
   padding: 20px 35px;
   justify-content: space-between;
@@ -65,6 +58,7 @@ header nav ul li a {
   font-size: 1.55vw;
 }
 
+/* FOOTER SECTION */
 footer {
   padding: 20px 40px;
   margin: 60px 100px;
@@ -99,7 +93,7 @@ footer ul li a {
   font-size: 1.55vw;
 
 }
-
+/* HERO SECTION */
 .hero {
   background-image: url(assets/images/eberhard-grossgasteiger-S-2Ukb_VqpA-unsplash.jpg);
   background-size: cover;
@@ -122,6 +116,15 @@ footer ul li a {
   text-align: center;
 }
 
+/* ABOUT ME SECTION */
+.avatar {
+  max-width: 50%;
+  height: 100px;
+  margin-left: 50px;
+  margin-top: 30px;
+  opacity: 0.8;
+}
+
 .flex-row {
   display: flex;
 }
@@ -142,18 +145,7 @@ footer ul li a {
   border-right-style: solid var(--secondary-color);
 }
 
-
-.section-title-other {
-  line-height: 1.4;
-  display: flex;
-  text-align: center; 
-  font-size: 20px;
-  margin-right: 30px;
-  border-right-style: solid var(--secondary-color);
-  margin-left: 410px;
-  margin-right: 50px;
-}
-
+/* WORK SECTION */
 .work-section {
   display: flex;
 }
@@ -179,7 +171,7 @@ footer ul li a {
   margin-top: -50px;
 }
 
-/*Smaller applications*/
+/* WORK SECTION: SMALLER APPLICATIONS */
 .work-2 {
   width: 50%;
   margin-left: 400px;
@@ -194,6 +186,10 @@ footer ul li a {
   color: var(--secondary-color);
   flex: 1;
   border-radius: 15px;
+}
+
+.small-applications {
+  margin-left: 100px;
 }
 
 .work-content img {
@@ -215,6 +211,53 @@ footer ul li a {
   font-weight: lighter;
 }
 
-.image-resize {
-  max-width: 400px;
-}
+ /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+ @media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-self: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  .hero h2 {
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  footer h2 {
+    margin-left: 250px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  footer ul {
+    text-align: left;
+    padding-right: 20px;
+    width: 50%;
+    justify-content: right, space-around;
+  }
+
+  .section-title {
+    margin-right: 10px;
+
+  }
+
+  .work-2 {
+    margin-left: 420px;
+  }
+
