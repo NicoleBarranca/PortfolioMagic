@@ -4,13 +4,13 @@
   --secondary-color: #607472;
 
 }
-
+/* 
 * { 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   
-}
+} */
 
 body {
   color: var(--secondary-color);
@@ -19,7 +19,7 @@ body {
 
 /* NAVIGATION */
 header {
-  padding: 20px 35px;
+  padding: 10px 35px;
   justify-content: space-between;
   top: 0 300px;
   background:var(--primary-color);
@@ -60,24 +60,23 @@ header nav ul li a {
 
 /* FOOTER SECTION */
 footer {
-  padding: 20px 40px;
   margin: 60px 100px;
-  justify-content: space-between;
-  display: flex;
-  align-items: flex-end;
+
+  
 
 }
 
 footer h2 {
  font-weight: bold;
  font-size: 36px;
- margin-left: 310px;
+ /* margin-left: 310px; */
 
 }
 
 footer a {
   text-decoration: none;
   color: var(--secondary-color);
+
 }
 
 footer ul {
@@ -85,6 +84,7 @@ footer ul {
   flex-wrap: wrap;
   list-style: none;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
 footer ul li a {
@@ -123,38 +123,26 @@ footer ul li a {
 
 .intro {
   color:var(--secondary-color);
+  display: flex;
+  flex: row;
+  align-items: center;
   font-size: 20px;
   margin: 0 auto;
   text-align: center;
 }
 
 /* ABOUT ME SECTION */
-.avatar {
-  max-width: 50%;
-  height: 100px;
-  margin-left: 50px;
-  margin-top: 30px;
-  opacity: 0.8;
-}
 
 .flex-row {
   display: flex;
 }
 
-.about-me-content {
-  display: flex;
-  text-align: right;
-  line-height: 1.4;
-  margin: 40px 40px 30px 30px;
-}
 
 .section-title {
-  display: flex;
-  text-align: right;
+  text-align: left;
   font-weight: bold;
   font-size: 36px;
-  margin: 30px 0 30px 400px;
-  border-right-style: solid var(--secondary-color);
+  padding-left: 35px;
 }
 
 /* WORK SECTION */
@@ -168,8 +156,16 @@ footer ul li a {
   align-items: flex-start;
 }
 
-#run-buddy-image {
+#musicbox {
   max-width: 100%;
+  min-width: 30%;
+  height: auto;
+  border-radius: 15px;
+}
+
+#wit {
+  max-width: 100%;
+  min-width: 30%;
   height: auto;
   border-radius: 15px;
 }
