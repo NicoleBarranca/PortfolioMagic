@@ -1,14 +1,23 @@
-# Nicole Barranca's Portfolio
 
-## Purpose of Portfolio
-This porfolio is a showcase of the projects Nicole has worked on, and the areas she is most talented in.
+# Hello! 👋 👩‍💻
 
-## Built With
-* HTML
-* CSS
 
-## Website
-https://nicolebarranca.github.io/NicoleBarranca/
+<p>Welcome to my GitHub profile!</p>
+<p>I am Nicole Barranca, a full-stack developer currently looking for opportunities.</p>
 
-## Contribution
-Made by by Nicole Barranca
+<p>Logic and creativity interest me equally. I love learning new technologies and collaborating with a team to create quality and useful products.</p>
+
+## Tools I Use 🔧
+
+<p>HTML</p>
+<p>CSS</p>
+<p>JavaScript</p>
+<p>Bootstrap</p>
+<p>Figma</p>
+
+
+
+<a href="https://nicolebarranca.github.io/NicoleBarranca/">Visit My Portfolio</a>
+
+
+<img src="./assets/images/T.png" width="400px" height="250px">
