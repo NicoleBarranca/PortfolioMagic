@@ -1,21 +1,47 @@
+<p align="center">
+  <a href="https://github.com/NicoleBarranca/PortfolioMagic" rel="noopener">
+ <img width=200px height=200px src="./assets/images/PM-Logo.jpg" alt="Project logo"></a>
+</p>
 
-## PortfolioMagic
 
+
+<h1 align="center">PortfolioMagic</h1>
 
 # Description
+My name is Nicole Barranca. This is the portfolio I use for personal projects and learning.
 
-My name is Nicole Barranca and this is my portfolio. The portfolio will showcase the work I have created and the skills I have aquired.
+## Purpose
+This is a showcase of the work I have created to sharpen my coding skills.
+
 
 ## Tools Used for this Portfolio
 
-<p>HTML</p>
-<p>CSS</p>
-<p>JavaScript</p>
-<p>Figma</p>
+#### HTML
+#### CSS
+#### JavaScript
+#### Figma
+
+## Website
+
+<a href="https://nicolebarranca.github.io/PortfolioMagic/">Visit Portfolio Magic</a>
+
+<img src="./assets/images/port.png" width="400px" height="300px">
+
+
+## Contribution
+Made with ❤️ by Nicole Barranca
+
+You can find more of my work at [Nicole Barranca](https://github.com/NicoleBarranca).
 
 
 
-<a href="https://nicolebarranca.github.io/NicoleBarranca/">Visit My Portfolio</a>
 
 
-<img src="./assets/images/port.png" width="400px" height="250px">
+
+
+
+
+
+
+
+
